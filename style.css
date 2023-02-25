@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+*{
+  font-family: "Handlee";
+}
+
+body{
+    background-image: linear-gradient(to left, #ffffff, rgb(255, 89, 247));
+  }
+
+  header{
+    background-color: lightpink;
+}
+
+
+.foto img{
+    max-width: 229px;
+    border-radius: 50%;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 60%;
+    top: 10px;
+    transform: translateX(84%);
+  }
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px 15px 50px;
+}
+
+article{
+    width: 70%;
+    height: 100vh;
+}
+
+aside{
+    width: 30%;
+    height: 100vh;
+    background-color: lightpink;
+    padding: 22px;
+}
+
+h1{
+  font-family: "Handlee";
+  font-size: 40pt;
+  color:blueviolet;
+  text-align: inherit;
+  margin-bottom:5px;
+  margin-top: 5px;
+  margin-left: 81px;
+}
+
+h2{
+  font-family:"Handlee";
+  font-size: 20pt;
+  color:fuchsia;
+  text-align: inherit;
+  background-color: lightpink;
+  margin-left: 10px;
+}
