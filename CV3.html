@@ -24,7 +24,7 @@
       </ul>
       
       <div class="foto">
-        <img src="C:\Users\littl\OneDrive\Documentos\CV\foto.png" alt="foto de perfil"/>
+        <img src="foto.png" alt="foto de perfil"/>
     </div>
 
     <main>
@@ -87,9 +87,39 @@
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         </ul>
 
-        <section id="formulario">
+       <!-- <section id="formulario">
           <button onclick="GeneraForm()">CONTACTAME</button>
-        </section>
+        </section>-->
+
+        <button class="show">CONTACTAME</button>
+
+        <form id="form" action="" class="form">
+          <h2 class="formulario_titulo"><span>CONTACTAME</span></h2>
+        
+          <input type="text" class="formulario_input" required="obligatorio">
+		      <label for="" class="formulario_label">Nombre</label>
+            
+          <input type="number" class="formulario_input" required="obligatorio">
+		      <label for="" class="formulario_label">Telefono</label>
+
+          <input type="email" class="formulario_input" required="obligatorio">
+		      <label for="" class="formulario_label">Email</label>
+
+          <input type="text" class="formulario_input" required="obligatorio">
+		      <label for="" class="formulario_label">Asunto</label>
+
+          <input type="text" class="formulario_input" required="obligatorio">
+		      <label for="" class="formulario_label">Mensaje</label>
+
+          <input type="submit" class="formulario_submit">
+        
+      
+          <p class="aviso">
+            <span class="obligatorio"> * </span>estos campos son obligatorios.
+          </p>          
+      
+        </form>
+
 
 
 
