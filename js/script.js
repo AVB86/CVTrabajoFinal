@@ -13,7 +13,7 @@ function GeneraForm(){
 
     let cajaTextMensaje=document.createElement("textarea");
 
-    let boton=document.createElement("input");
+    let boton=document.createElement("input"); 
 
         formulario.setAttribute('method', "post");
         formulario.setAttribute('action', "");
