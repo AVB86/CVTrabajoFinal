@@ -1,3 +1,4 @@
+/* Para fijar las palabras arriba de las celdas a completar*/
 var inputs= document.getElementsByClassName ("formulario_input");
 for (var i=0; i<inputs.length; i++){
     inputs [i].addEventListener ("keyup", function() {
@@ -9,6 +10,7 @@ for (var i=0; i<inputs.length; i++){
     });
 }
 
+/*Para mostrar el formulario oculto*/
 const form= document.querySelector("form")
 document.querySelector(".show").addEventListener("click", () => {
     form.classList.add("form_mostrar")

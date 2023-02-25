@@ -36,7 +36,7 @@ article{
 
 aside{
     width: 30%;
-    height: 100%;
+    height: auto;
     background-color: lightpink;
     padding: 22px;
 }
@@ -60,11 +60,15 @@ h2{
   margin-left: 10px;
 }
 
+.fa-brands {
+  padding: 10px 10px;
+}
+
 .form{
   width: 380px;
-  max-width: 100%;
+  max-width: auto;
   margin: auto;
-  margin-top: 30%;
+  margin-top: 10%;
   padding: 20px;
   box-shadow: 0 0 20px 1px rgb(255, 89, 247, 0.80);
   opacity: 0;
@@ -76,14 +80,18 @@ h2{
 }
 
 button{
-  width: 200px;
-  height: 70px;
-  color:#940253;
-  background-image:-o-linear-gradient(rgb(173, 100, 246, 0.9));
-  border: 8px solid rebeccapurple;
-  border-radius: 300%;
-  font-size:xx-large solid;
+  width: 380px;
+  max-width: auto;
+  margin: auto;
+  margin-top: 10%;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgb(255, 89, 247, 0.80);
+  background-image:-webkit-linear-gradient(top, #eb94d0,#7dbce2);
+  border: 1px solid rebeccapurple;
+  font-size: 1.3em;
   cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
   
 }
 
@@ -94,7 +102,7 @@ button{
 }
 
 .formulario_input, .formulario_label, .formulario_submit {
-  display: block;
+  display: flex;
   width: 80%;
   font-size: 1.3em;
 }
