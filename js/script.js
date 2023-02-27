@@ -16,8 +16,4 @@ document.querySelector(".show").addEventListener("click", () => {
     form.classList.add("form_mostrar")
 })
 
-document.querySelector(".formulario_submit").addEventListener("click", () => {
-    form.classList.remove("form_mostrar")
-})
-
 

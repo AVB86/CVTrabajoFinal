@@ -2,15 +2,23 @@
 
 *{
   font-family: "Handlee";
+  box-sizing: border-box;
 }
+
 
 body{
     background-image: linear-gradient(to left, #ffffff, rgb(255, 89, 247));
   }
 
-  header{
+header{
     background-color: lightpink;
+    padding-left: 40px;
 }
+
+header h2{
+  margin-top: 0;
+}
+
 
 nav{
   display: block;
@@ -19,6 +27,7 @@ nav{
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 1.3em;
+  padding-left: 40px;
 
 }
 
@@ -35,29 +44,27 @@ nav{
 main{
     display: flex;
     flex-direction: row;
-    padding: 10px 50px 15px 50px;
+    padding: 74px 40px 15px 40px;
 }
 
 article{
     width: 70%;
-    height: 100vh;
+    height:100vh
 }
 
 aside{
     width: 30%;
-    height: auto;
+    height: fit-content;
     background-color: lightpink;
     padding: 22px;
 }
 
 h1{
   font-family: "Handlee";
-  font-size: 4em;
+  font-size: 5em;
   color:blueviolet;
-  text-align: inherit;
   margin-bottom:5px;
-  margin-top: 5px;
-  margin-left: 81px;
+  margin-top: 10px;
 }
 
 h2{
@@ -83,8 +90,22 @@ h4{
   margin-left: 10px;
 }
 
+legend{
+  text-decoration: underline solid;
+  color: #940253;
+  font-size: 1.5em;
+  }
+
+.contacto h3, .datos h3{
+  text-decoration: underline solid;
+  color: #940253;
+  font-size: 1.5em;
+}
+
+
 .fa-brands {
   padding: 10px 10px;
+  font-size: xx-large;
 }
 
 .form{
@@ -118,12 +139,6 @@ button{
   
 }
 
-/*.formulario_titulo{
-  text-align: center;
-  margin-top: 0;
-  color:#940253
-}*/
-
 .formulario_input, .formulario_label, .formulario_submit {
   display: flex;
   width: 80%;
@@ -147,6 +162,7 @@ button{
 }
 
 .formulario_label{
+  max-width: 100px;
   padding: 15px;
   position: absolute;
   margin-top: -85px;
@@ -166,18 +182,3 @@ button{
 .fijar{
   margin-top: -150px;
 }
-
-/*#formulario{
-  padding: 10px 20px 20px;
-}
-
-#formulario button{
-  width: 300px;
-  height: 70px;
-  color:#940253;
-  background-image:-o-linear-gradient(rgb(173, 100, 246));
-  border: 8px solid rebeccapurple;
-  border-radius: 20%;
-  font-size:x-large;
-}
-
