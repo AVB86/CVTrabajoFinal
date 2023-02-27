@@ -8,7 +8,7 @@
 
 body{
     background-image: linear-gradient(to left, #ffffff, rgb(255, 89, 247));
-  }
+}
 
 header{
     background-color: lightpink;
@@ -28,18 +28,17 @@ nav{
   font-weight: bold;
   font-size: 1.3em;
   padding-left: 40px;
-
 }
 
 .foto img{
-    max-width: 229px;
+    max-width: 300px;
     border-radius: 50%;
     border: 5px solid #940253;
     position: absolute;
     left: 60%;
     top: 10px;
-    transform: translateX(84%);
-  }
+    transform: translateX(71%);
+}
 
 main{
     display: flex;
@@ -94,7 +93,7 @@ legend{
   text-decoration: underline solid;
   color: #940253;
   font-size: 1.5em;
-  }
+}
 
 .contacto h3, .datos h3{
   text-decoration: underline solid;
@@ -141,8 +140,9 @@ button{
 
 .formulario_input, .formulario_label, .formulario_submit {
   display: flex;
-  width: 80%;
+  width: 90%;
   font-size: 1.3em;
+  margin-left: 10px;
 }
 
 .formulario_input {
